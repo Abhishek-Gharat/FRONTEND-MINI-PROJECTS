@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#joke{
+    text-align: center;
+    margin-top: 10rem;
+    padding-bottom: 10rem;
+}
+
+#random_joke{
+    text-align: center;
+    margin-top: 10%;
+    background-color: aqua;
+    padding: 20% 10px 20px 20px;
+    
+}
