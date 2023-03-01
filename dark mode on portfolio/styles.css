@@ -1,0 +1,134 @@
+body {
+    background: linear-gradient(to bottom right, #2e86c1, #1abc9c);
+    font-family: Arial, sans-serif;
+    color: #fff;
+    margin: 0;
+  }
+  
+  
+  header {
+    background: linear-gradient(to bottom right, #2e86c1, #1abc9c);
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+  
+  h1 {
+    margin: 0;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav li {
+    margin-left: 20px;
+  }
+  
+  nav a { 
+    color: #000000;
+    text-decoration: none;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+  }
+  
+  .profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  
+  img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    box-shadow: 10px 0px 10px rgba(0, 0, 0, 0.5);
+
+  }
+  
+  .bio {
+    max-width: 600px;
+    text-align: center;
+  }
+  
+  h2 {
+    margin-top: 0;
+    color: rgb(0, 0, 0);
+    font-family:'Courier New', Courier, monospace;
+   box-shadow: 0 10px 10px rgba(0, 0, 0, 0.5);
+
+  }
+  
+  p {
+    line-height: 1.5;
+  }
+  .dark-mode {
+    background: #111;
+    color: #fff;
+  }
+  
+  .dark-mode header {
+    background: #222;
+  }
+  
+  .dark-mode nav a {
+    color: #fff;
+  }
+  
+  .dark-mode img {
+    box-shadow: 10px 0px 10px rgba(255, 255, 255, 0.5);
+  }
+  
+  .dark-mode h2 {
+    color: #fff;
+    box-shadow: 0 10px 10px rgba(255, 255, 255, 0.5);
+  }
+  #dark-mode-toggle {
+    font-size: 0.9rem;
+    padding: 0.6rem 0.9rem;
+    border: none;
+    margin-left: 60px;
+    border-radius: 10px;
+    background-color: #222;
+    color: #fff;
+    box-shadow: 0 0 10px #fff,
+                0 0 20px #fff,
+                0 0 30px #fff,
+                0 0 40px #ff00de,
+                0 0 70px #ff00de,
+                0 0 80px #ff00de,
+                0 0 100px #ff00de;
+    text-shadow: 0 0 10px #fff,
+                 0 0 20px #fff,
+                 0 0 30px #fff,
+                 0 0 40px #ff00de,
+                 0 0 70px #ff00de,
+                 0 0 80px #ff00de,
+                 0 0 100px #ffffff;
+    transition: all 0.1s ease;
+  }
+  
+  #dark-mode-toggle:hover {
+    box-shadow: none;
+    text-shadow: none;
+    background-color: #ff00de;
+    color: #fff;
+  }
+  
+  
+  
