@@ -51,3 +51,11 @@ button[type="submit"]:hover{
 .weather-card .icon img{
     max-width :100px;
 }
+
+.weather-card .temprerature{
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+.weather-card .description{
+    font-size: 18px;
+}
