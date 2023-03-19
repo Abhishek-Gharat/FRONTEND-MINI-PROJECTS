@@ -4,6 +4,7 @@ const locationEl = document.querySelector('.location');
 const temperatureEl = document.querySelector('.temperature');
 const descriptionEl = document.querySelector('.description');
 
+
 const apiKey = 'fb71a38dd44db0cb0805d8197348a6a7';
 const apiUrl = `https://api.openweathermap.org/data/2.5/weather?appid=${apiKey}&units=metric`;
 
@@ -32,4 +33,5 @@ function updateUI(data) {
   temperatureEl.textContent = `${Math.round(data.main.temp)}°C`;
   descriptionEl.textContent = `${data.weather[0].description}`;
 }
+
 
