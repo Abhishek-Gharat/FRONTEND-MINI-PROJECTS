@@ -36,3 +36,9 @@ body{
     background: black;
 
 }
+.play-board .food{
+    background-color: red;
+}
+.play-board .head{
+    background: green;
+}
